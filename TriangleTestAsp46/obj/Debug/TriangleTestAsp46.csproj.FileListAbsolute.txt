@@ -1,0 +1,7 @@
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\bin\Debug\TriangleTestAsp46.exe.config
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\bin\Debug\TriangleTestAsp46.exe
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\bin\Debug\TriangleTestAsp46.pdb
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\obj\Debug\TriangleTestAsp46.exe
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\obj\Debug\TriangleTestAsp46.pdb
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\bin\Debug\TriangleTestAsp46.exe.CodeAnalysisLog.xml
+C:\Users\Dennis\Desktop\Software Dev opgaver\Algorithm and Datastructures\TriangleTestAsp46\TriangleTestAsp46\bin\Debug\TriangleTestAsp46.exe.lastcodeanalysissucceeded
