@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TriangleTestAsp46.Services;
 
 namespace TriangleTestAsp46
@@ -86,21 +82,13 @@ namespace TriangleTestAsp46
         public static int getInput()
         {
             bool takeInput = true;
-            int val = 1;
+            int val;
             while (takeInput)
             {
-                var input = Console.ReadLine();
-                if (int.TryParse(input, out val))
-                {
-                    val = int.Parse(input);
-                    takeInput = false;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input, please try again:\n");
-                }
+                if (int.TryParse(Console.ReadLine(), out val)) { return val; }
+                else { Console.WriteLine("Invalid input, please try again:\n"); }
             }
-            return val;
+            return 0;
         }
     }
 }

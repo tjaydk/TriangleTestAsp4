@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace TriangleTestAsp46.Services
 {
@@ -56,14 +52,12 @@ namespace TriangleTestAsp46.Services
         /// <returns></returns>
         private bool checkRules(int[] orderedVal)
         {
-            if (orderedVal[0] <= orderedVal[1] && orderedVal[1] <= orderedVal[2])
-            {
-                if ((orderedVal[2] - orderedVal[0]) < orderedVal[1] && orderedVal[1] < (orderedVal[2] + orderedVal[0]))
-                {
-                    return true;
-                }
-            }
-            return false;
+            int a = orderedVal[1];
+            int b = orderedVal[0];
+            int c = orderedVal[2];
+
+            if ((c - b) < a && a < (c + b))     { return true; }
+            else                                { return false; }
         }
 
         /// <summary>
@@ -73,10 +67,13 @@ namespace TriangleTestAsp46.Services
         /// <returns></returns>
         private string calculateType(int[] values)
         {
-            if (values[0] == values[1] && values[0] == values[2]) { return "Equilateral triangle"; }
-            if (values[0] == values[1] || values[0] == values[2] || values[1] == values[2]) { return "Isosceles triangle"; }
-            // if none of the above is the case then return Scalene triangle
-            return "Scalene triangle";
+            int a = values[1];
+            int b = values[0];
+            int c = values[2];
+
+            if      (a == b && a == c)                  { return "Equilateral triangle"; }
+            else if (a == b || a == c || b == c)        { return "Isosceles triangle"; }
+            else                                        { return "Scalene triangle"; }
         }
     }
 }
