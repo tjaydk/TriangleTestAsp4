@@ -1,7 +1,7 @@
 # TriangleTestAsp4
 ####Version two after refactore. Link to original repo: https://github.com/tjaydk/TriangleTest
 
-Here is a screendump of the code analysis metrics
+Here is a screendump of the code analysis metrics CC2
 ![alt tag](https://github.com/tjaydk/TriangleTestAsp4/blob/master/CodeAnalysisMetrics.JPG)
 
 This is review for Ebbe's program. (It is written in danish)
